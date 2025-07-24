@@ -1,0 +1,5 @@
+@EndUserText.label: 'GSTR1 SERVIES DEFINITUON'
+define service ZGSTR1_CDS_SERVIES_DEF {
+  expose ZGSTR1_CDS_PROJ;
+  expose ZGSTR1_DOC_CDS_PROJ;
+}

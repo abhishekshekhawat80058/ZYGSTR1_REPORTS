@@ -1,0 +1,30 @@
+managed implementation in class zbp_gst1_doc_tab_cds unique;
+strict ( 2 );
+
+define behavior for ZGST1_DOC_TAB_CDS //alias <alias_name>
+persistent table zgstr1_doc_table
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  mapping for  zgstr1_doc_table
+
+  {
+  Report = report;
+  DocumentType = document_type;
+  BilType = bil_type;
+  CreatedBy = created_by;
+   CreatedAt = created_at;
+   LastChangedBy = last_changed_by;
+   LastChangedAt = last_changed_at;
+   LocalLastChangedAt = local_last_changed_at;
+
+
+
+
+   }
+}

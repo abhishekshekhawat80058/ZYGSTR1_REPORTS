@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "CDS FOR GSTR1 B2B REPORT",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "DDLS",
+    "objectName": "ZGSTR1_B2B_CDS2"
+  },
+  "fields": [
+    {
+      "name": "COMPANYCODE",
+      "nature": "general"
+    },
+    {
+      "name": "ACCOUNTINGDOCUMENT",
+      "nature": "general"
+    },
+    {
+      "name": "FISCALYEAR",
+      "nature": "general"
+    },
+    {
+      "name": "DOCUMENTDATE",
+      "nature": "general"
+    },
+    {
+      "name": "POSTINGDATE",
+      "nature": "general"
+    },
+    {
+      "name": "ACCOUNTINGDOCUMENTTYPE",
+      "nature": "general"
+    },
+    {
+      "name": "ISREVERSAL",
+      "nature": "general"
+    },
+    {
+      "name": "ISREVERSED",
+      "nature": "general"
+    },
+    {
+      "name": "PLANT",
+      "nature": "general"
+    },
+    {
+      "name": "TAXITEMACCTGDOCITEMREF",
+      "nature": "general"
+    },
+    {
+      "name": "BILLINGDOCUMENT",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMER",
+      "nature": "general"
+    },
+    {
+      "name": "PRODUCT",
+      "nature": "general"
+    },
+    {
+      "name": "PROFITCENTER",
+      "nature": "general"
+    },
+    {
+      "name": "GLACCOUNT",
+      "nature": "general"
+    },
+    {
+      "name": "CONDITIONTYPE",
+      "nature": "general"
+    },
+    {
+      "name": "TAXCODE",
+      "nature": "general"
+    },
+    {
+      "name": "TRANSACTIONCURRENCY",
+      "nature": "general"
+    },
+    {
+      "name": "TAXAMOUNTINCOCODECRCY",
+      "nature": "general"
+    },
+    {
+      "name": "AMOUNTINCOMPANYCODECURRENCY",
+      "nature": "general"
+    },
+    {
+      "name": "BILLINGDOCUMENTTYPE",
+      "nature": "general"
+    },
+    {
+      "name": "HSN_CODE",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMERNAME",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMER_GST",
+      "nature": "general"
+    },
+    {
+      "name": "JOCG_AMT",
+      "nature": "general"
+    },
+    {
+      "name": "JOSG_AMT",
+      "nature": "general"
+    },
+    {
+      "name": "JOIG_AMT",
+      "nature": "general"
+    },
+    {
+      "name": "JOCG_RATE",
+      "nature": "general"
+    },
+    {
+      "name": "JOSG_RATE",
+      "nature": "general"
+    },
+    {
+      "name": "JOIG_RATE",
+      "nature": "general"
+    },
+    {
+      "name": "EWBNUMBER",
+      "nature": "general"
+    },
+    {
+      "name": "IRN",
+      "nature": "general"
+    }
+  ]
+}
